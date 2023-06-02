@@ -12,6 +12,10 @@ public class Note {
     private String title;
     private String content;
 
+    public Note() {
+        // Default constructor for deserialization
+    }
+
     public Note(Integer id, String title, String content) {
         this.id = id;
         this.title = title;
